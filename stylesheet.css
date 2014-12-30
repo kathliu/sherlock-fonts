@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+/* HTML5 display-role reset for older browsers */ 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* WEBSITE CODE */
+
+html, body {
+	max-width: 100%;
+	/*overflow-x: hidden;*/
+}
+
+div {
+	max-width: 100%;
+	padding: 90px;
+}
+
+#header {
+	max-width: 100%;
+	text-align: left;
+	background-color: #5e9e9f;
+}
+
+#header-text {
+	width: 300px;
+	padding: 0;
+	background-color: #5e9e9f;
+	color: #065454;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+div div h1 {
+	font-family: "Abril Fatface";
+	text-transform: uppercase;
+	text-align: left;
+}
+
+div div span {
+	font-family: "Playfair Display";
+	font-style: italic;
+	font-weight: 400;
+	font-size: 25px;
+	text-transform: lowercase;
+}
+
+div div h2 {
+	font-family: "Playfair Display";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.2em;
+}
+
+div:nth-child(even) {
+	background-color: #efefef;
+}
+
+div:nth-child(odd) {
+	background-color: #fff;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 30px;
+	line-height: 1.1em;
+}
+
+p {
+	font-size: 18px;
+	margin-bottom: 30px;
+	line-height: 1.2em;
+}
+
+.label {
+	font-family: "Unica One";
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-top: 10px;
+	margin-bottom: 80px;
+	text-align: left;
+}
+
+#head-one {
+	font-family: "Playfair Display";
+	font-weight: 900;
+	font-style: italic;
+}
+
+#body-one {
+	font-family: Alice;
+}
+
+#head-two {
+	font-family: Oswald;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+#body-two {
+	font-family: Vollkorn;
+}
+
+#head-three {
+	font-family: Rufina;
+}
+
+#body-three {
+	font-family: Sintony;
+}
+
+#head-four {
+	font-family: "Medula One";
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+#body-four {
+	font-family: Abel;
+}
+
+#head-five {
+	font-family: Megrim;
+	text-transform: uppercase;
+}
+
+#body-five {
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+
+#head-six {
+	font-family: "Roboto Condensed";
+	text-transform: uppercase;
+}
+
+#body-six {
+	font-family: Inconsolata;
+}
+
+#head-seven {
+	font-family: Montserrat;
+}
+
+#body-seven {
+	font-family: "Droid Serif";
+	font-style: italic;
+}
