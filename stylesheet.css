@@ -125,14 +125,24 @@ p {
 	text-align: left;
 }
 
+#container-one {
+	background-color: #d66868;
+	color: #840f0f;
+}
+
 #container-one h1 {
 	font-family: "Playfair Display";
 	font-weight: 900;
 	font-style: italic;
 }
 
-#container-one p {
+#container-one p:nth-last-child(1) {
 	font-family: Alice;
+}
+
+#container-two {
+	background-color: #E9CE74;
+	color: #9b7804;
 }
 
 #container-two h1 {
@@ -141,16 +151,26 @@ p {
 	font-weight: 300;
 }
 
-#container-two p {
+#container-two p:nth-last-child(1) {
 	font-family: Vollkorn;
+}
+
+#container-three {
+	background-color: #ABC1D3;
+	color: #043b66;
 }
 
 #container-three h1 {
 	font-family: Rufina;
 }
 
-#container-three p {
+#container-three p:nth-last-child(1) {
 	font-family: Sintony;
+}
+
+#container-four {
+	background-color: #E6EDDD;
+	color: #386300;
 }
 
 #container-four h1 {
@@ -159,8 +179,13 @@ p {
 	font-size: 50px;
 }
 
-#container-four p {
+#container-four p:nth-last-child(1) {
 	font-family: Abel;
+}
+
+#container-five {
+	background-color: #F59642;
+	color: #894102;
 }
 
 #container-five h1 {
@@ -168,9 +193,14 @@ p {
 	text-transform: uppercase;
 }
 
-#container-five p {
+#container-five p:nth-last-child(1) {
 	font-family: "Open Sans";
 	font-weight: 300;
+}
+
+#container-six {
+	background-color: #98C7D1;
+	color: #04596b;
 }
 
 #container-six h1 {
@@ -178,15 +208,20 @@ p {
 	text-transform: uppercase;
 }
 
-#container-six p {
+#container-six p:nth-last-child(1) {
 	font-family: Inconsolata;
+}
+
+#container-seven {
+	background-color: #efefef;
+	color: #7c6d6d;
 }
 
 #container-seven h1 {
 	font-family: Montserrat;
 }
 
-#container-seven p {
+#container-seven p:nth-last-child(1) {
 	font-family: "Droid Serif";
 	font-style: italic;
 }
