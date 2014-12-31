@@ -135,58 +135,58 @@ p {
 	font-family: Alice;
 }
 
-#head-two {
+#container-two h1 {
 	font-family: Oswald;
 	text-transform: uppercase;
 	font-weight: 300;
 }
 
-#body-two {
+#container-two p {
 	font-family: Vollkorn;
 }
 
-#head-three {
+#container-three h1 {
 	font-family: Rufina;
 }
 
-#body-three {
+#container-three p {
 	font-family: Sintony;
 }
 
-#head-four {
+#container-four h1 {
 	font-family: "Medula One";
 	text-transform: uppercase;
 	font-size: 50px;
 }
 
-#body-four {
+#container-four p {
 	font-family: Abel;
 }
 
-#head-five {
+#container-five h1 {
 	font-family: Megrim;
 	text-transform: uppercase;
 }
 
-#body-five {
+#container-five p {
 	font-family: "Open Sans";
 	font-weight: 300;
 }
 
-#head-six {
+#container-six h1 {
 	font-family: "Roboto Condensed";
 	text-transform: uppercase;
 }
 
-#body-six {
+#container-six p {
 	font-family: Inconsolata;
 }
 
-#head-seven {
+#container-seven h1 {
 	font-family: Montserrat;
 }
 
-#body-seven {
+#container-seven p {
 	font-family: "Droid Serif";
 	font-style: italic;
 }
