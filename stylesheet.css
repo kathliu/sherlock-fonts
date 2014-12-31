@@ -125,13 +125,13 @@ p {
 	text-align: left;
 }
 
-#head-one {
+#container-one h1 {
 	font-family: "Playfair Display";
 	font-weight: 900;
 	font-style: italic;
 }
 
-#body-one {
+#container-one p {
 	font-family: Alice;
 }
 
